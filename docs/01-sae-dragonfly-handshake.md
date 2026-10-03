@@ -4,7 +4,7 @@ WPA3 eliminates the open authentication vulnerabilities of WPA2 by introducing *
 
 ## 1. SAE Commit (Client $\to$ AP & AP $\to$ Client)
 During the Commit phase, both devices take the pre-shared password and map it onto an elliptic curve to generate a mathematical point.
-![SAE Commit Packet Capture](../images/SAE-commit-1.png)
+![SAE Commit Packet Capture](/images/SAE-commit-1.png)
 
 * **Payload Contents:** Exchanges the **Scalar** and **Finite Field Element**.
 * **Cryptographic Property:** The password itself is *never* transmitted over the air. Instead, these numerical values allow both sides to independently compute the exact same secret.
