@@ -1,0 +1,7 @@
+# Essential Wireshark Display Filters for WPA3 SAE Analysis
+
+# Isolate Authentication and Association frames (SAE Commits happen here)
+wlan.fc.type_subtype == 0xb0 || wlan.fc.type_subtype == 0x00
+
+# Filter EAPOL 4-Way Handshake frames
+eapol
