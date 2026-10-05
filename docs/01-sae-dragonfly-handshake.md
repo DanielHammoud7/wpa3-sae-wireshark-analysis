@@ -22,17 +22,13 @@ During the Commit phase, both devices take the pre-shared password and map it on
 Once both devices compute their respective scalar/field elements, they exchange confirmation tokens to verify alignment:
 > *"I computed the key using the password. Did you get the exact same result?"*
 
+**Client Confirm**
 
-**Client To Acess Point**
+![SAE Confirm Packet Capture](../images/confirm_1.png)
 
-![SAE Commit Packet Capture](../images/confirm-1.png)
+**Acess Point Confirm**
 
-**Acess Point To Client**
-
-![SAE Commit Packet Capture](../images/confrim 2.png)
-
-
-
+![SAE Confirm Packet Capture](../images/confirm_2.png)
 
 
 
