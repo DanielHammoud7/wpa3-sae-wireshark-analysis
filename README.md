@@ -116,22 +116,12 @@ The philosophy: **Deep understanding requires hands-on evidence.** Theory withou
 - Trace through the entire handshake from first SAE Commit to final EAPOL Message 4
 - Research the Dragonfly algorithm (RFC 7748) for even deeper understanding
 
----
 
-## 📖 References
-
-- [IEEE 802.11ax (Wi-Fi 6) SAE Standard](https://standards.ieee.org/standard/802_11ax-2021.html)
-- [RFC 7748: Elliptic Curves for Security](https://tools.ietf.org/html/rfc7748)
-- [CompTIA Security+ Exam Objectives](https://www.comptia.org/certifications/security)
-- Wireshark Protocol Analysis Guide
-
----
-
-## 💡 Author's Note
+## MY Note
 
 This project embodies the principle that **cyber security requires hands-on understanding, not just reading.** Too much security education stops at theory; this repo goes further by providing real evidence.
 
 Built as a proof of deep understanding for the CompTIA Security+ certification, with the belief that the cybersecurity world needs practitioners who can explain protocols at the packet level, not just at a conceptual level.
 
-Hope this repo helps you understand WPA3 at a deeper level. 🔒
+Hope this repo helps you understand WPA3 at a deeper level. 
 
